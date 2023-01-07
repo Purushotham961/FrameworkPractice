@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="8" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-07T22:06:49 IST" name="Suite" finished-at="2023-01-07T22:07:30 IST" duration-ms="41504">
+    <groups>
+      <group name="ByListeners">
+        <method signature="JsonDataTestByListeners.submitOrder5(java.util.HashMap)[pri:0, instance:clientapp.tests.JsonDataTestByListeners@4722ef0c]" name="submitOrder5" class="clientapp.tests.JsonDataTestByListeners"/>
+      </group> <!-- ByListeners -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.ProductErrorValidation()[pri:0, instance:clientapp.tests.ErrorValidationsTest@480d3575]" name="ProductErrorValidation" class="clientapp.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="ByDataProvider">
+        <method signature="DataProviderTest.submitOrder2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" name="submitOrder2" class="clientapp.tests.DataProviderTest"/>
+      </group> <!-- ByDataProvider -->
+      <group name="ByHashMap">
+        <method signature="HashMapTest.submitOrder3(java.util.HashMap)[pri:0, instance:clientapp.tests.HashMapTest@f1da57d]" name="submitOrder3" class="clientapp.tests.HashMapTest"/>
+      </group> <!-- ByHashMap -->
+      <group name="ByJsonData">
+        <method signature="JsonDataTest.submitOrder4(java.util.HashMap)[pri:0, instance:clientapp.tests.JsonDataTest@48e1f6c7]" name="submitOrder4" class="clientapp.tests.JsonDataTest"/>
+      </group> <!-- ByJsonData -->
+    </groups>
+    <test started-at="2023-01-07T22:06:49 IST" name="Test" finished-at="2023-01-07T22:07:30 IST" duration-ms="41504">
+      <class name="clientapp.tests.DataProviderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:06:49 IST" name="launchApplication" finished-at="2023-01-07T22:06:59 IST" duration-ms="10338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="DataProviderTestDepends()[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:06:59 IST" name="DataProviderTestDepends" finished-at="2023-01-07T22:07:06 IST" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProviderTestDepends -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:07:06 IST" name="closeBrowser" finished-at="2023-01-07T22:07:08 IST" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:07:08 IST" name="launchApplication" finished-at="2023-01-07T22:07:14 IST" duration-ms="5563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:07:14 IST" name="submitOrder2" data-provider="getData" finished-at="2023-01-07T22:07:19 IST" depends-on-methods="clientapp.tests.DataProviderTest.DataProviderTestDepends" duration-ms="5406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[purushothamtest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puru@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:07:19 IST" name="closeBrowser" finished-at="2023-01-07T22:07:20 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:07:20 IST" name="launchApplication" finished-at="2023-01-07T22:07:26 IST" duration-ms="6587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:07:26 IST" name="submitOrder2" data-provider="getData" finished-at="2023-01-07T22:07:30 IST" depends-on-methods="clientapp.tests.DataProviderTest.DataProviderTestDepends" duration-ms="3656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[purushotham@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puru@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.DataProviderTest@338fc1d8]" started-at="2023-01-07T22:07:30 IST" name="closeBrowser" finished-at="2023-01-07T22:07:30 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- clientapp.tests.DataProviderTest -->
+      <class name="clientapp.tests.ClientAppTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.ClientAppTest@7fd50002]" started-at="2023-01-07T22:06:49 IST" name="launchApplication" finished-at="2023-01-07T22:07:01 IST" duration-ms="12455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder1()[pri:0, instance:clientapp.tests.ClientAppTest@7fd50002]" started-at="2023-01-07T22:07:01 IST" name="submitOrder1" finished-at="2023-01-07T22:07:07 IST" duration-ms="5911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.ClientAppTest@7fd50002]" started-at="2023-01-07T22:07:07 IST" name="closeBrowser" finished-at="2023-01-07T22:07:09 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.ClientAppTest@7fd50002]" started-at="2023-01-07T22:07:09 IST" name="launchApplication" finished-at="2023-01-07T22:07:15 IST" duration-ms="6576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:clientapp.tests.ClientAppTest@7fd50002]" started-at="2023-01-07T22:07:15 IST" name="orderHistoryTest" finished-at="2023-01-07T22:07:17 IST" depends-on-methods="clientapp.tests.ClientAppTest.submitOrder1" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.ClientAppTest@7fd50002]" started-at="2023-01-07T22:07:17 IST" name="closeBrowser" finished-at="2023-01-07T22:07:18 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- clientapp.tests.ClientAppTest -->
+      <class name="clientapp.tests.JsonDataTestByListeners">
+        <test-method signature="submitOrder5(java.util.HashMap)[pri:0, instance:clientapp.tests.JsonDataTestByListeners@4722ef0c]" started-at="2023-01-07T22:06:49 IST" name="submitOrder5" data-provider="getData" finished-at="2023-01-07T22:06:49 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at clientapp.tests.JsonDataTestByListeners.getData(JsonDataTestByListeners.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 12 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder5 -->
+      </class> <!-- clientapp.tests.JsonDataTestByListeners -->
+      <class name="clientapp.tests.JsonDataTest">
+        <test-method signature="submitOrder4(java.util.HashMap)[pri:0, instance:clientapp.tests.JsonDataTest@48e1f6c7]" started-at="2023-01-07T22:06:49 IST" name="submitOrder4" data-provider="getData" finished-at="2023-01-07T22:06:49 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:359)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at clientapp.tests.JsonDataTest.getData(JsonDataTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 12 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder4 -->
+      </class> <!-- clientapp.tests.JsonDataTest -->
+      <class name="clientapp.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.ErrorValidationsTest@480d3575]" started-at="2023-01-07T22:06:49 IST" name="launchApplication" finished-at="2023-01-07T22:06:58 IST" duration-ms="9166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:clientapp.tests.ErrorValidationsTest@480d3575]" started-at="2023-01-07T22:06:58 IST" name="LoginErrorValidation" finished-at="2023-01-07T22:07:01 IST" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.ErrorValidationsTest@480d3575]" started-at="2023-01-07T22:07:01 IST" name="closeBrowser" finished-at="2023-01-07T22:07:03 IST" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.ErrorValidationsTest@480d3575]" started-at="2023-01-07T22:07:03 IST" name="launchApplication" finished-at="2023-01-07T22:07:08 IST" duration-ms="5255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:clientapp.tests.ErrorValidationsTest@480d3575]" started-at="2023-01-07T22:07:08 IST" name="ProductErrorValidation" finished-at="2023-01-07T22:07:12 IST" duration-ms="3414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.ErrorValidationsTest@480d3575]" started-at="2023-01-07T22:07:12 IST" name="closeBrowser" finished-at="2023-01-07T22:07:15 IST" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- clientapp.tests.ErrorValidationsTest -->
+      <class name="clientapp.tests.HashMapTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.HashMapTest@f1da57d]" started-at="2023-01-07T22:06:49 IST" name="launchApplication" finished-at="2023-01-07T22:06:55 IST" duration-ms="5619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder3(java.util.HashMap)[pri:0, instance:clientapp.tests.HashMapTest@f1da57d]" started-at="2023-01-07T22:06:55 IST" name="submitOrder3" data-provider="getData" finished-at="2023-01-07T22:07:12 IST" duration-ms="17288" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Puru@12345, email=purushothamtest@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at clientapp.tests.HashMapTest.submitOrder3(HashMapTest.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.HashMapTest@f1da57d]" started-at="2023-01-07T22:07:13 IST" name="closeBrowser" finished-at="2023-01-07T22:07:17 IST" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:clientapp.tests.HashMapTest@f1da57d]" started-at="2023-01-07T22:07:17 IST" name="launchApplication" finished-at="2023-01-07T22:07:21 IST" duration-ms="4222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder3(java.util.HashMap)[pri:0, instance:clientapp.tests.HashMapTest@f1da57d]" started-at="2023-01-07T22:07:21 IST" name="submitOrder3" data-provider="getData" finished-at="2023-01-07T22:07:25 IST" duration-ms="4056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Puru@12345, email=purushotham@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:clientapp.tests.HashMapTest@f1da57d]" started-at="2023-01-07T22:07:25 IST" name="closeBrowser" finished-at="2023-01-07T22:07:25 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- clientapp.tests.HashMapTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
